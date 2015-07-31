@@ -24,13 +24,13 @@ Exposes all of the same methods as
 transform streams for easy piping. See node's docs for explanations of optional
 arguments to `parse` and `stringify`.
 
-### `querystream.parse([sep, eq, options]) -> TransformStream`
+`querystream.parse([sep, eq, options]) -> TransformStream`
 
-### `querystream.stringify([sep, eq, options]) -> TransformStream`
+`querystream.stringify([sep, eq, options]) -> TransformStream`
 
-### `querystream.escape() -> TransformStream`
+`querystream.escape() -> TransformStream`
 
-### `querystream.unescape() -> TransformStream`
+`querystream.unescape() -> TransformStream`
 
 ## license
 
